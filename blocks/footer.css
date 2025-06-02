@@ -8,14 +8,16 @@
 .footer__content {
     display: flex;
     justify-content: space-between;
+    margin: 0;
 }
 
 .footer__logo {
     width: 105px;
     height: 39px;
+    margin: 0;
 }
 
-.footer__column-heading {
+.footer__social-heading {
     margin: 0 0 20px;
 }
 
@@ -23,9 +25,10 @@
     margin: 0;
     padding: 0;
     list-style-type: none;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
+}
+
+.footer__list-item {
+    margin: 0 0 16px;
 }
 
 .footer__social-link {
